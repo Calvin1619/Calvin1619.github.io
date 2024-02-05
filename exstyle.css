@@ -1,0 +1,46 @@
+html, body {
+	height:100%;
+}
+html {
+	display:table; 
+	width:100%;
+}
+body {
+	font-family: sans-serif;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+	display:table-cell; 
+	text-align:center; 
+	vertical-align:middle;
+}
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
+ol {
+  list-style-position: inside;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #999999;
+}
+
+a:hover {
+	color: red;
+}
